@@ -1,5 +1,7 @@
 public class StudentRecord
-{
+{  
+   
+   
    //contains scores.length values and scores.length > 1
    private int [] scores;
    
