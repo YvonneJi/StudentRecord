@@ -14,10 +14,12 @@ public class StudentRecordTester
         int[] c={20,50,50,80};
         
         StudentRecord[] students;
-         students = new StudentRecord[3];
-         students[0] = new StudentRecord(a);
-         students[1] = new StudentRecord(b);
-   
+         StudentRecord[] str = new StudentRecord[3];
+         str [0] = new StudentRecord(a);
+         str [1] = new StudentRecord(b);
+         str [2] = new StudentRecord(c);
+         
+         System.out.println(str[0].average(0,2));
     }
     
 }
