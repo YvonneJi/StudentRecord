@@ -19,7 +19,7 @@ public class StudentRecordTester
          str [1] = new StudentRecord(b);
          str [2] = new StudentRecord(c);
          
-         System.out.println(str[0].average(0,2));
+        
     }
     
 }
