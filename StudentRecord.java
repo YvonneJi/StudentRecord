@@ -35,7 +35,7 @@ public class StudentRecord
        boolean isIncreasing=true;
      for (int i=scores.length-1 ; i>=1 ; i--)
       if (scores[i-1]>scores[i])
-      isIncreasing= false;
+          isIncreasing= false;
       return isIncreasing; //here so the class compiles
    }  
    
@@ -46,6 +46,11 @@ public class StudentRecord
     */
    public double finalAverage()
    {
-      return 0; //here so the class compiles
+      if (hasImproved())
+       return average (scores.length/2,scores.length-1);
+      else
+      return average(0,scores.length-1);
+       
+      //here so the class compiles
    } 
 }
